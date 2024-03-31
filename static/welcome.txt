@@ -1,0 +1,6 @@
+Hiii welcome from Ranjit Singh
+go on this route : http://127.0.0.1:8000/static/welcome.txt
+To get the welcome by this file
+
+
+Go on this route for my resume : http://127.0.0.1:8000/static/Ranjit-Singh-Resume.pdf
