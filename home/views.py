@@ -15,3 +15,11 @@ def contact(request):
 
 def service(request):
     return HttpResponse("This is service page") 
+
+def varRender(request):
+    context = {
+        'name':"Ranjit Singh",
+        'job':"Machine Learning Engineer",
+        'expertise':['python','data science','machine learning','NLP']
+    }
+    return render(request,'var_render.html',context)
