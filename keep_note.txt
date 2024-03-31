@@ -1,0 +1,11 @@
+django-admin startproject hello
+-- to create a project in django
+
+switch into hello directory
+python manage.py startapp home
+--to create your first app
+
+python manage.py runserver
+-- to run your djange server or app 
+
+create urls.py in your app 'home' because it is in project 'hello' but not in app
