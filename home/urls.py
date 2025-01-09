@@ -7,5 +7,7 @@ urlpatterns = [
     path('about',views.about,name='about'),
     path('contact',views.contact,name='contact'),
     path('service',views.service,name='service'),
-    path('varRender',views.varRender,name='varRender')
+    path('varRender',views.varRender,name='varRender'),
+    path('formsubmit', views.formsubmit, name='formsubmit'),
+    path('input_submit',views.input_submit,name='input_submit')
 ]
